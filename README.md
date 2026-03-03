@@ -2,8 +2,10 @@
 
 ## Team Members
 
-- [Autum Darrell](https://github.com/BreezyAutum)
-- [Ashlyn Knox](https://github.com/ashx3s/css-refactor-collab-starter.git)
+- [NAME](https://github.com/)
+- [NAME](https://github.com/)
+- [Kervin](https://github.com/krvnajoj)
+- [Miguel](https://github.com/ashx3s/css-refactor-collab-starter.git)
 ---
 
 ## Lab Instructions
