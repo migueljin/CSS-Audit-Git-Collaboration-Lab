@@ -2,9 +2,16 @@
 
 ## Team Members
 
+<<<<<<< HEAD
 - [Autum Darrell](https://github.com/BreezyAutum)
 - [Ashlyn Knox](https://github.com/ashx3s/css-refactor-collab-starter.git)
 - [Miguel Gatdula](https://github.com/migueljin/CSS-Audit-Git-Collaboration-Lab)
+=======
+- [NAME](https://github.com/)
+- [NAME](https://github.com/)
+- [Kervin](https://github.com/krvnajoj)
+- [Miguel](https://github.com/ashx3s/css-refactor-collab-starter.git)
+>>>>>>> 1e0462430a1e422a1d1d1c7c1cab1ad71386d82a
 ---
 
 ## Lab Instructions
