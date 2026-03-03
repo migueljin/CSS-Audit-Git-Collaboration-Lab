@@ -6,6 +6,8 @@
 - [Hari Srivathsava](https://github.com/Srivathsava1407)
 - [Kervin](https://github.com/krvnajoj)
 - [Miguel Gatdula](https://github.com/migueljin/CSS-Audit-Git-Collaboration-Lab)
+- [Shahwaiz Hussain](https://github.com/swzcodes)
+
 ---
 
 ## Lab Instructions
@@ -132,7 +134,7 @@ Now that your issues are documented and assigned, start working.
 
 #### Writing Good Commit Messages
 
-A good commit message is short and says *what changed and why*:
+A good commit message is short and says _what changed and why_:
 
 - ✅ `Group heading selectors in fonts.css`
 - ✅ `Add hover and focus states to buttons (closes #5)`
@@ -191,7 +193,7 @@ Before you wrap up, go through this checklist individually. Be honest with yours
 - [ ] I read through the CSS files carefully rather than skimming.
 - [ ] I identified at least one problem that wasn't flagged by a `TODO` or `FIXME` comment.
 - [ ] I used the browser's developer tools to test or investigate at least one issue.
-- [ ] I could explain *why* something was a problem, not just that it looked wrong.
+- [ ] I could explain _why_ something was a problem, not just that it looked wrong.
 
 #### GitHub Issues
 
