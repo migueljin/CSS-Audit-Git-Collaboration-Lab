@@ -8,9 +8,6 @@
   font-size: 0.875rem; /* slightly smaller than body text */
   font-weight: 700; /* bold text */
 
-
-
-
   letter-spacing: 0.06em; /* spreads the letters out a bit */
   text-transform: uppercase; /* makes all the text caps */
 
@@ -21,12 +18,9 @@
 
   cursor: pointer; /* shows a hand cursor on hover */
   transition: background-color 200ms ease; /* animates background colour */
+  transition: color 200ms ease; /* animates text colour */
+  transition: border-color 200ms ease; /* animates border colour */
 }
-
-/* TODO: .btn only transitions background-color. Add color and border-color to
-   the transition so changes animate smoothly. Also add a :focus-visible style
-   so keyboard users can see which button is focused — there is currently no
-   visible focus indicator on buttons. */
 
 .btn-primary {
   background-color: #7a1f3d; /* dark red background */
@@ -34,10 +28,14 @@
   border-color: #7a1f3d; /* border matches the background */
 }
 
-.btn-primary: hover {
+.btn-primary:hover {
   background-color: #5a1530; /* darker red on hover */
   border-color: #5a1530; /* keep border in sync */
-  color: #ffffff; /* keep text white */
+}
+
+.btn:focus-visible {
+  outline: 2px solid #7a1f3d; /* shows a border when focused via keyboard */
+  outline-offset: 2px; /* small gap between button and outline */
 }
 
 .btn-secondary {
@@ -59,20 +57,13 @@
   border-radius: 8px; /* rounded corners */
   padding: 1.5rem; /* inner spacing */
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08); /* subtle drop shadow */
+  transition: transform 200ms ease, box-shadow 200ms ease; /* animate the hover effect */
 }
 
-
-
-
-
-
-
-
-
-
-/* TODO: Add a hover state to .card. A small translateY(-2px) and a slightly
-   larger box-shadow gives a nice "lift" effect. You will also need to add a
-   transition to .card itself so the effect animates instead of snapping. */
+.card:hover {
+  transform: translateY(-2px); /* lift the card up slightly */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12); /* stronger shadow on hover */
+}
 
 .card-icon {
   font-size: 2.5rem; /* big emoji icon */
@@ -99,14 +90,11 @@
   gap: 1.25rem; /* space between each field group */
 }
 
-
-
-
-  .form-group{
+.form-group{
   display: flex; /* stack label above input */
   flex-direction: column; /* label on top, input below */
   gap: 0.375rem; /* small gap between label and input */
-  }
+}
 
 .contact-form label {
   font-size: 0.875rem; /* small label text */
@@ -214,15 +202,6 @@
   height: 140px;
   overflow: hidden;
 }
-
-
-
-
-
-
-
-
-
 
 .faq-item h3 {
   color: #7a1f3d; /* red question heading */
