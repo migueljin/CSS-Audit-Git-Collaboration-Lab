@@ -4,6 +4,7 @@
 
 - [Autum Darrell](https://github.com/BreezyAutum)
 - [Ashlyn Knox](https://github.com/ashx3s/css-refactor-collab-starter.git)
+- [Miguel Gatdula](https://github.com/migueljin/CSS-Audit-Git-Collaboration-Lab)
 ---
 
 ## Lab Instructions
