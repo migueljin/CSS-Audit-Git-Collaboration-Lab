@@ -5,7 +5,7 @@
 - [NAME](https://github.com/)
 - [Hari Srivathsava](https://github.com/Srivathsava1407)
 - [Kervin](https://github.com/krvnajoj)
-- [Abhiraj Panesar](https://github.com/Abhirajx9/css-refactor-collab-starter.git)
+- [Abhiraj Panesar](https://github.com/Abhirajx9/CSS-Audit-Git-Collaboration-Lab.git)
 - [Miguel Gatdula](https://github.com/migueljin/CSS-Audit-Git-Collaboration-Lab)
 - [Shahwaiz Hussain](https://github.com/swzcodes)
 
